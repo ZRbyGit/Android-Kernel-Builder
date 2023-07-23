@@ -9,13 +9,12 @@
     },
     "withKernelSU": true,
     "toolchains": [
-    "toolchains": [
-    {
-     "repo": "https://github.com/CruelKernel/samsung-exynos9820-toolchain/",
-     "branch": "google",
-     "name": "google",
-     "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
-    }
+      {
+        "repo": "https://github.com/CruelKernel/samsung-exynos9820-toolchain/",
+        "branch": "google",
+        "name": "google",
+        "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
+      }
     ],
     "ccache": true,
     "params": {
