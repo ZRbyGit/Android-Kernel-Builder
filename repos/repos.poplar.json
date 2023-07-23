@@ -9,12 +9,13 @@
     },
     "withKernelSU": true,
     "toolchains": [
-      {
-        "repo": "https://github.com/topser9/toolchain",
-        "branch": "gcc-linaro-7.5.0",
-        "name": "proton-clang",
-        "binPath": ["bin"]
-      }
+    "toolchains": [
+    {
+     "repo": "https://github.com/CruelKernel/samsung-exynos9820-toolchain/",
+     "branch": "google",
+     "name": "google",
+     "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
+    }
     ],
     "ccache": true,
     "params": {
