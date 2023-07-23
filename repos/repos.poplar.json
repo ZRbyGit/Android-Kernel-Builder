@@ -11,7 +11,7 @@
     "toolchains": [
       {
         "repo": "https://github.com/topser9/toolchain",
-        "branch": "clang",
+        "branch": "gcc-linaro-7.5.0",
         "name": "proton-clang",
         "binPath": ["bin"]
       }
