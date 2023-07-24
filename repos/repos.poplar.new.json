@@ -10,8 +10,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/brigudav/proton-clang",
-        "branch": "12",
+        "repo": "https://github.com/Kirito6785/KALI-NETHUNTER-KERNEL-FOR-ONLY-RM6785-",
+        "branch": "main",
         "name": "12",
         "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
       }
