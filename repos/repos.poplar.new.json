@@ -5,7 +5,7 @@
       "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
       "branch": "lineage-20",
       "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_kddi_defconfig"
+      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
