@@ -7,13 +7,17 @@
       "device": "poplar",
       "defconfig": "lineage-msm8998-yoshino-poplar_kddi_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "name": "proton-clang",
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+        "name": "clang",
         "binPath": ["./bin"]
+      },
+      {
+        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
+        "name": "gcc",
+        "binPath": ["bin"]
       }
     ],
     "ccache": true,
