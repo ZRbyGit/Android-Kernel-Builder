@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Poplar-KernelSU-Proton",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
+      "name": "Pdx206-KernelSU-Proton",
+      "repo": "https://github.com/hellobbn/android_kernel_sony_sm8250/",
       "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "device": "pdx206",
+      "defconfig": "pdx206_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -37,19 +37,19 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/ZRbyGit/AnyKernel3/",
+      "branch": "pdx206"
     }
   },
   {
     "kernelSource": {
-      "name": "Poplar-Google",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
+      "name": "Pdx206-Google",
+      "repo": "https://github.com/hellobbn/android_kernel_sony_sm8250/",
       "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "device": "pdx206",
+      "defconfig": "pdx206_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -78,10 +78,10 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/ZRbyGit/AnyKernel3/",
+      "branch": "pdx206"
     }
   }
 ]
