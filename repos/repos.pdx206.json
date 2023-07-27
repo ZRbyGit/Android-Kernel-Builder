@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Pdx206-KernelSU-Proton",
+      "name": "KernelSU-Proton",
       "repo": "https://github.com/hellobbn/android_kernel_sony_sm8250/",
       "branch": "lineage-20",
       "device": "pdx206",
@@ -45,7 +45,7 @@
   },
   {
     "kernelSource": {
-      "name": "Pdx206-Google",
+      "name": "KernelSU-G",
       "repo": "https://github.com/hellobbn/android_kernel_sony_sm8250/",
       "branch": "lineage-20",
       "device": "pdx206",
