@@ -4,8 +4,8 @@
       "name": "KernelSU-Proton",
       "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
       "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "device": "maple",
+      "defconfig": "lineage-msm8998-yoshino-maple_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -40,7 +40,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/ZRbyGit/AnyKernel3",
-      "branch": "poplar"
+      "branch": "maple"
     }
   },
   {
@@ -48,8 +48,8 @@
       "name": "KernelSU-G",
       "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
       "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "device": "maple",
+      "defconfig": "lineage-msm8998-yoshino-maple_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -81,7 +81,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/ZRbyGit/AnyKernel3",
-      "branch": "poplar"
+      "branch": "maple"
     }
   }
 ]
