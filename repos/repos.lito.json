@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "KernelSU-Proton",
-      "repo": "https://github.com/YuyukoAOSPMod/kernel_xiaomi_chopin",
-      "branch": "12.1",
+      "repo": "https://github.com/Xiaomi-Chopin-Device/kernel_xiaomi_chopin",
+      "branch": "chopin-r-oss",
       "device": "chopin",
       "defconfig": "chopin_user_defconfig"
     },
@@ -46,8 +46,8 @@
   {
     "kernelSource": {
       "name": "KernelSU-G",
-      "repo": "https://github.com/YuyukoAOSPMod/kernel_xiaomi_chopin",
-      "branch": "12.1",
+      "repo": "https://github.com/Xiaomi-Chopin-Device/kernel_xiaomi_chopin",
+      "branch": "chopin-r-oss",
       "device": "chopin",
       "defconfig": "chopin_user_defconfig"
     },
