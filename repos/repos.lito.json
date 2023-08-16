@@ -5,7 +5,7 @@
       "repo": "https://github.com/realme-kernel-opensource/realmeQ3_Q3pro_AndroidS_kernel-source",
       "branch": "master",
       "device": "lito",
-      "defconfig": "vendor/lito_defconfig"
+      "defconfig": "vendor/lito-perf_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -49,7 +49,7 @@
       "repo": "https://github.com/realme-kernel-opensource/realmeQ3_Q3pro_AndroidS_kernel-source",
       "branch": "master",
       "device": "lito",
-      "defconfig": "vendor/lito_defconfig"
+      "defconfig": "vendor/lito-perf_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
