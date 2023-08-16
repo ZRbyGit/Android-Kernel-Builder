@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "KernelSU-Proton",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
-      "branch": "lineage-20",
-      "device": "lilac",
-      "defconfig": "lineage-msm8998-yoshino-lilac_defconfig"
+      "repo": "https://github.com/realme-kernel-opensource/realmeQ3_Q3pro_AndroidS_kernel-source",
+      "branch": "master",
+      "device": "lito",
+      "defconfig": "vendor/lito_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -40,16 +40,16 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/ZRbyGit/AnyKernel3",
-      "branch": "lilac"
+      "branch": "lito"
     }
   },
   {
     "kernelSource": {
       "name": "KernelSU-G",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
-      "branch": "lineage-20",
-      "device": "lilac",
-      "defconfig": "lineage-msm8998-yoshino-lilac_defconfig"
+      "repo": "https://github.com/realme-kernel-opensource/realmeQ3_Q3pro_AndroidS_kernel-source",
+      "branch": "master",
+      "device": "lito",
+      "defconfig": "vendor/lito_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -81,7 +81,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/ZRbyGit/AnyKernel3",
-      "branch": "lilac"
+      "branch": "lito"
     }
   }
 ]
