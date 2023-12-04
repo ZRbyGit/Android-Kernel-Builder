@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "KernelSU-Proton",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
-      "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_msm8998",
+      "branch": "thirteen",
+      "device": "chiron",
+      "defconfig": "chiron_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -45,11 +45,11 @@
   },
   {
     "kernelSource": {
-      "name": "KernelSU-G",
-      "repo": "https://github.com/whatawurst/android_kernel_sony_msm8998",
-      "branch": "lineage-20",
-      "device": "poplar",
-      "defconfig": "lineage-msm8998-yoshino-poplar_defconfig"
+      "name": "KernelSU-Proton",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_msm8998",
+      "branch": "thirteen",
+      "device": "chiron",
+      "defconfig": "chiron_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
